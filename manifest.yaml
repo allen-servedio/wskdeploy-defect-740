@@ -1,0 +1,14 @@
+project:
+  name: helloworld
+  version: 0.0.1
+  packages:
+    hellopkg:
+      license: Apache-2.0
+      inputs: 
+        someData:
+          type: string
+          description: Passing in some data
+      actions: 
+        hello:
+          function: hello-action/index.js
+          runtime: nodejs

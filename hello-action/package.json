@@ -1,0 +1,8 @@
+{
+  "name": "hello",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm link serverless-openwhisk"
+  },
+  "keywords": ["serverless", "openwhisk"]
+}
