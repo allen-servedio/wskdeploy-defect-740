@@ -1,0 +1,16 @@
+project:
+  name: defect740
+  version: 0.0.1
+  packages:
+    mypkg:
+      license: Apache-2.0
+      version: 0.0.1
+      dependencies:
+        poc-common-func:
+          location: https://github.com/allen-servedio/wskdeploy-defect-740
+          version: 0.0.1
+          inputs: 
+            someData:
+              type: string
+              value: my-data
+              description: Some data goes here
